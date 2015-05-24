@@ -1,0 +1,22 @@
+#roster{
+	border:solid thick black;
+	overflow:hidden;
+}
+
+.selected{
+	border: solid thick black;
+}
+
+.rdiv{
+	border:thin black solid;
+	border-radius: 10px;
+	padding:10px;
+	margin:10px;
+}
+
+.edit, .delete, .print{
+	margin-right: 10px;
+	margin-left: 10px;
+	border: thin solid black;
+	padding: 5px;
+}

@@ -1,0 +1,39 @@
+<html>
+<head>
+<link href="delaney.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="underscore.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js"></script>
+<script src='masonryInit.js'></script>
+<script src='init.js'></script>
+<script src='addCamper.js'></script>
+<script src='buildCampers.js'></script>
+</head>
+<body>
+	<input id="first" placeholder="First Name"></input>
+	<input id="last" placeholder="Last Name"></input>
+	<input type="radio" name="sex" value="male">Male
+	<input type="radio" name="sex" value="female">Female
+	<select id="division">
+	  <option value="division">Division</option>
+	  <option value="freshmen">Freshmen</option>
+	  <option value="cadet">Cadet</option>
+	  <option value="sophomore">Sophomore</option>
+	  <option value="junior">Junior</option>
+	  <option value="senior">Senior</option>
+	  <option value="super">Super</option>
+	  <option value="teen">Teen</option>
+	  <option value="CIT">CIT</option>
+	</select> 
+	<input id="bunk" placeholder="Bunk"></input>
+	<button id="add">Add Camper</button>
+	<div>
+	<button id="m">male</button>
+	<button id="f">female</button>
+	</div>
+	<div id="divisions"></div>
+	<div id="bunks"></div>
+	<ul id="campers"></ul>
+</body>
+</html>
